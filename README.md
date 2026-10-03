@@ -1,14 +1,9 @@
-# SQLHD: Hallucination Detection for LLM-based Text-to-SQL via Two-Stage Metamorphic Testing
-
-Replication package for the FSE 2027 submission
-**"Catching Hallucinations Early: Two-Stage Metamorphic Testing for LLM-based Text-to-SQL"** (anonymous review copy).
 
 ## Contents (inventory)
 
 | Path | Description | Paper section |
 |---|---|---|
 | `README.md` | this file | — |
-| `requirements.txt` | pinned dependencies | §4.3 |
 | `sqlhd/config.py` | model/compare/run configuration (temperature 0; no tunable detector thresholds) | §4.3, §4.5 |
 | `sqlhd/lexicons.py` | comparative lexicon (~120 entries, from Spider/BIRD *train* splits), prefix set, SC adjunct templates, WordNet synonym/antonym utilities | §3.3 |
 | `sqlhd/transforms.py` | the 17 MR input transformations sigma | §3.4, §3.5, Table 1 |
